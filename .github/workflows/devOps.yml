@@ -5,6 +5,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - run: pwd
+        name: PWD
         - run: ls
     job2:
         name: node环境检测
