@@ -1,6 +1,7 @@
 on: push
 jobs: 
     job1:
+        name: Ubuntu环境测试
         runs-on: ubuntu-latest
         steps:
         - run: pwd
