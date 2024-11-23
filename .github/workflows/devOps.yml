@@ -6,6 +6,7 @@ jobs:
         - run: pwd
         - run: ls
     job2:
+        name: node环境检测
         runs-on: windows-latest
         steps:
         - run: node --version
