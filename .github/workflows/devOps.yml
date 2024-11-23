@@ -4,8 +4,8 @@ jobs:
         name: Ubuntu环境测试
         runs-on: ubuntu-latest
         steps:
-        - run: pwd
-        name: PWD
+        - name: PWD
+          run: pwd
         - run: ls
     job2:
         name: node环境检测
